@@ -17,14 +17,19 @@ def obtener_datos():
         ]
 
         df = pd.DataFrame(klines, columns=columnas)
+        # Convertir los tiempos de milisegundos a datetime
         df["Open time"] = pd.to_datetime(df["Open time"], unit="ms")
         df["Close time"] = pd.to_datetime(df["Close time"], unit="ms")
+        # Convertir valores numéricos
         df["Open"] = df["Open"].astype(float)
         df["High"] = df["High"].astype(float)
         df["Low"] = df["Low"].astype(float)
         df["Close"] = df["Close"].astype(float)
         df["Volume"] = df["Volume"].astype(float)
 
+        # Establecer el índice con "Close time" (o "Open time", según prefieras)
+        df.set_index("Close time", inplace=True)
+        
         logger.info("✅ Datos obtenidos con éxito")
         return df
 

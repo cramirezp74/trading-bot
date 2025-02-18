@@ -1,29 +1,53 @@
-2025-02-07 12:19:51 - INFO - \U0001f680 Iniciando bot de trading...
-2025-02-07 12:19:51 - INFO - \U0001f4c5 An�lisis de mercado a las 2025-02-07 12:19:51
-2025-02-07 12:19:51 - INFO - \U0001f4e1 Solicitando datos a Binance...
-2025-02-07 12:19:52 - INFO - \u2705 Datos obtenidos con �xito
-2025-02-07 12:19:52 - INFO - \U0001f4ca RSI: 54.38 | Precio: $97914.21
-2025-02-07 12:19:52 - INFO - \U0001f535 RSI en rango neutral: No hacer nada
-2025-02-07 12:19:52 - INFO - \U0001f4c8 Manteniendo posici�n, sin operaciones en esta iteraci�n.
-2025-02-07 12:19:52 - INFO - \u23f3 Esperando 60 minutos para la siguiente iteraci�n...
-2025-02-07 13:58:38 - INFO - \U0001f4c5 An�lisis de mercado a las 2025-02-07 13:58:38
-2025-02-07 13:58:38 - INFO - \U0001f4e1 Solicitando datos a Binance...
-2025-02-07 13:58:38 - INFO - \u2705 Datos obtenidos con �xito
-2025-02-07 13:58:38 - INFO - \U0001f4ca RSI: 53.56 | Precio: $97973.89
-2025-02-07 13:58:38 - INFO - \U0001f535 RSI en rango neutral: No hacer nada
-2025-02-07 13:58:38 - INFO - \U0001f4c8 Manteniendo posici�n, sin operaciones en esta iteraci�n.
-2025-02-07 13:58:38 - INFO - \u23f3 Esperando 60 minutos para la siguiente iteraci�n...
-2025-02-07 17:40:42 - INFO - \U0001f4c5 An�lisis de mercado a las 2025-02-07 17:40:42
-2025-02-07 17:40:42 - INFO - \U0001f4e1 Solicitando datos a Binance...
-2025-02-07 17:40:43 - INFO - \u2705 Datos obtenidos con �xito
-2025-02-07 17:40:43 - INFO - \U0001f4ca RSI: 44.69 | Precio: $95959.75
-2025-02-07 17:40:43 - INFO - \U0001f535 RSI en rango neutral: No hacer nada
-2025-02-07 17:40:43 - INFO - \U0001f4c8 Manteniendo posici�n, sin operaciones en esta iteraci�n.
-2025-02-07 17:40:43 - INFO - \u23f3 Esperando 60 minutos para la siguiente iteraci�n...
-2025-02-07 21:38:38 - INFO - \U0001f680 Iniciando bot de trading...
-2025-02-07 21:38:38 - INFO - \U0001f4c5 An�lisis de mercado a las 2025-02-07 21:38:38
-2025-02-07 21:38:38 - INFO - \U0001f4e1 Solicitando datos a Binance...
-2025-02-07 21:38:39 - INFO - \u2705 Datos obtenidos con �xito
-2025-02-07 21:38:39 - INFO - RSI: 46.56 | Precio: 96712.02 | EMA50: 97179.57 | BB Lower: 95370.03 | BB Upper: 99222.68
-2025-02-07 21:38:39 - INFO - \U0001f4c8 Manteniendo posici�n, sin operaciones en esta iteraci�n.
-2025-02-07 21:38:39 - INFO - \u23f3 Esperando 60 minutos para la siguiente iteraci�n...
+2025-02-18 01:41:51 - INFO - 🚀 Iniciando bot de trading...
+2025-02-18 01:41:51 - INFO - 📅 Análisis de mercado a 2025-02-18 01:41:51
+2025-02-18 01:41:51 - INFO - 📡 Solicitando datos a Binance...
+2025-02-18 01:41:51 - INFO - ✅ Datos obtenidos con éxito
+2025-02-18 01:41:51 - INFO - Datos del último candle registrados correctamente.
+2025-02-18 01:41:51 - INFO - 📡 Solicitando datos a Binance...
+2025-02-18 01:41:52 - INFO - ✅ Datos obtenidos con éxito
+2025-02-18 01:41:52 - INFO - RSI: 41.56 | Precio: 96214.33 | EMA5: 96180.58 | EMA9: 96181.87 | MACD: 11.42 | ADX: 37.54 | ATR: 91.83 | BB Lower: 96005.44 | BB Upper: 96366.34
+2025-02-18 01:41:52 - INFO - No se cumple la estrategia. Motivos: {"compra": ["RSI (41.56) no menor que 40"], "venta": ["Precio no menor que EMA5", "RSI (41.56) no mayor que 55", "MACD no menor que su señal"]}
+2025-02-18 01:41:52 - INFO - Mantener posición: sin operaciones.
+2025-02-18 01:41:52 - INFO - ⏳ Próxima ejecución programada para: 2025-02-18 01:45:00
+2025-02-18 01:45:00 - INFO - 📅 Análisis de mercado a 2025-02-18 01:45:00
+2025-02-18 01:45:00 - INFO - 📡 Solicitando datos a Binance...
+2025-02-18 01:45:00 - INFO - ✅ Datos obtenidos con éxito
+2025-02-18 01:45:00 - INFO - Datos del último candle registrados correctamente.
+2025-02-18 01:45:00 - INFO - 📡 Solicitando datos a Binance...
+2025-02-18 01:45:00 - INFO - ✅ Datos obtenidos con éxito
+2025-02-18 01:45:00 - INFO - RSI: 43.25 | Precio: 96214.32 | EMA5: 96191.82 | EMA9: 96188.35 | MACD: 13.13 | ADX: 41.10 | ATR: 78.99 | BB Lower: 96005.75 | BB Upper: 96368.90
+2025-02-18 01:45:00 - INFO - No se cumple la estrategia. Motivos: {"compra": ["RSI (43.25) no menor que 40"], "venta": ["Precio no menor que EMA5", "RSI (43.25) no mayor que 55", "MACD no menor que su señal"]}
+2025-02-18 01:45:00 - INFO - Mantener posición: sin operaciones.
+2025-02-18 01:45:00 - INFO - ⏳ Próxima ejecución programada para: 2025-02-18 01:50:00
+2025-02-18 01:50:00 - INFO - 📅 Análisis de mercado a 2025-02-18 01:50:00
+2025-02-18 01:50:00 - INFO - 📡 Solicitando datos a Binance...
+2025-02-18 01:50:00 - INFO - ✅ Datos obtenidos con éxito
+2025-02-18 01:50:00 - INFO - Datos del último candle registrados correctamente.
+2025-02-18 01:50:00 - INFO - 📡 Solicitando datos a Binance...
+2025-02-18 01:50:00 - INFO - ✅ Datos obtenidos con éxito
+2025-02-18 01:50:00 - INFO - RSI: 55.35 | Precio: 96127.49 | EMA5: 96151.08 | EMA9: 96162.29 | MACD: -10.73 | ADX: 38.25 | ATR: 86.43 | BB Lower: 95991.58 | BB Upper: 96338.75
+2025-02-18 01:50:00 - INFO - Señal de VENTA: SL: 96170.71, TP: 95997.84
+2025-02-18 01:50:00 - INFO - Ejecutando orden de VENTA en BTC...
+2025-02-18 01:50:00 - INFO - Simulación: Vender BTC | SL: 96170.71, TP: 95997.84
+2025-02-18 01:50:01 - ERROR - ⚠️ Error enviando mensaje a Telegram: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+2025-02-18 01:50:01 - INFO - ⏳ Próxima ejecución programada para: 2025-02-18 01:55:00
+2025-02-18 01:55:00 - INFO - 📅 Análisis de mercado a 2025-02-18 01:55:00
+2025-02-18 01:55:00 - INFO - 📡 Solicitando datos a Binance...
+2025-02-18 01:55:00 - INFO - ✅ Datos obtenidos con éxito
+2025-02-18 01:55:00 - INFO - Datos del último candle registrados correctamente.
+2025-02-18 01:55:00 - INFO - 📡 Solicitando datos a Binance...
+2025-02-18 01:55:00 - INFO - ✅ Datos obtenidos con éxito
+2025-02-18 01:55:00 - INFO - RSI: 32.38 | Precio: 95987.49 | EMA5: 96065.44 | EMA9: 96104.93 | MACD: -47.50 | ADX: 45.73 | ATR: 94.87 | BB Lower: 95894.11 | BB Upper: 96350.97
+2025-02-18 01:55:00 - INFO - No se cumple la estrategia. Motivos: {"compra": ["Precio no mayor que EMA5", "MACD no mayor que su señal"], "venta": ["RSI (32.38) no mayor que 55"]}
+2025-02-18 01:55:00 - INFO - Mantener posición: sin operaciones.
+2025-02-18 01:55:00 - INFO - ⏳ Próxima ejecución programada para: 2025-02-18 02:00:00
+2025-02-18 02:00:00 - INFO - 📅 Análisis de mercado a 2025-02-18 02:00:00
+2025-02-18 02:00:00 - INFO - 📡 Solicitando datos a Binance...
+2025-02-18 02:00:00 - INFO - ✅ Datos obtenidos con éxito
+2025-02-18 02:00:00 - INFO - Datos del último candle registrados correctamente.
+2025-02-18 02:00:00 - INFO - 📡 Solicitando datos a Binance...
+2025-02-18 02:00:01 - INFO - ✅ Datos obtenidos con éxito
+2025-02-18 02:00:01 - INFO - RSI: 46.03 | Precio: 96070.81 | EMA5: 96085.75 | EMA9: 96111.44 | MACD: -21.45 | ADX: 46.84 | ATR: 82.45 | BB Lower: 95940.71 | BB Upper: 96283.19
+2025-02-18 02:00:01 - INFO - No se cumple la estrategia. Motivos: {"compra": ["Precio no mayor que EMA5", "RSI (46.03) no menor que 40"], "venta": ["RSI (46.03) no mayor que 55", "MACD no menor que su señal"]}
+2025-02-18 02:00:01 - INFO - Mantener posición: sin operaciones.
+2025-02-18 02:00:01 - INFO - ⏳ Próxima ejecución programada para: 2025-02-18 02:05:00
